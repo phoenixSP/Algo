@@ -11,6 +11,7 @@ class Solution():
          self.val = x
          self.left = None
          self.right = None
+         
     def height(self, root): 
       
         # base condition when binary tree is empty 
