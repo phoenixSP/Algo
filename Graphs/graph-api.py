@@ -74,7 +74,6 @@ if __name__ == "__main__":
           "f" : []
         }
 
-
     graph = UndirectedGraph(g)
     
     print("Vertices of graph:")
@@ -91,3 +90,11 @@ if __name__ == "__main__":
     
     print("Edges of graph:")
     print(graph.get_edges())
+    
+    print('Adding an edge {"x","y"} with new vertices:')
+    graph.add_edge("x","y")
+    print("Vertices of graph:")
+    print(graph.get_vertices())
+    print("Edges of graph:")
+    print(graph.get_edges())
+  
